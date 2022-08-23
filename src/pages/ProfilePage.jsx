@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux"
-import { logout, clearTranslationHistory } from "../userSlice"
+import { logout, clearTranslationHistory } from "../state/userSlice"
 import "../style/PageContainer.css"
 import "../style/Profile.css"
 

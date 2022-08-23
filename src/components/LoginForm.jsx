@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { login, importTranslationHistory } from "../userSlice"
+import { login, importTranslationHistory } from "../state/userSlice"
 import { useDispatch } from "react-redux"
 import "../style/Login.css"
 
