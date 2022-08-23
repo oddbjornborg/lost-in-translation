@@ -1,6 +1,6 @@
 # Lost in Translation
 
-Lost in Translation is a simple web service for translating words and text into American Sign Language.
+Lost in Translation is a simple web service for translating words and text into American Sign Language. Available on [Heroku](https://glacial-scrubland-70507.herokuapp.com/).
 
 ## Description
 
