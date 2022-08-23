@@ -1,6 +1,6 @@
 # Lost in Translation
 
-Lost in Translation is a simple web service for translating words and text into American Sign Language.
+Lost in Translation is a simple web service for translating words and text into American Sign Language. Available on [Heroku](https://glacial-scrubland-70507.herokuapp.com/).
 
 ## Description
 
@@ -14,12 +14,12 @@ This project was created as part of the Noroff Accelerate course. It's purpose w
 
 There's no need to install anything, simply visit the site on [Heroku](https://glacial-scrubland-70507.herokuapp.com/).
 
-Should you want to run the site locally, simply download the repo and run npm install in the root folder.
+Should you want to run the site locally, simply download the repo and run npm install in the root folder. From there you can use a service like Live Server to host the site yourself.
 
 ## Usage
 
 Log in to access the translation service.
 
-Click "Home" to navigate to the translation page. Write some text and either click the Translate button or hit enter to translate.
+Click the logo on the left side of the header to navigate to the translation page. Write some text and either click the Translate button or hit enter to translate.
 
-Click "Profile" to navigate to the profile page. Displays your last ten translations and contains buttons to both log out and clear your translation history.
+Click your name on the right side of the header to navigate to the profile page. Displays your last ten translations and contains buttons to both log out and clear your translation history.
