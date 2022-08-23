@@ -8,3 +8,25 @@
     height: 10%;
     background-image: linear-gradient(#FFC75F 97%, #E7B355 0%, #E7B355);
 }
+
+.header-image {
+    height: 50px;
+}
+
+.name {
+    color: white;
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.title-text {
+    color: white;
+    margin-left: 15px;
+}
