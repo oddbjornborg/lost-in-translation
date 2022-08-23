@@ -17,6 +17,6 @@ export const translationSlice = createSlice({
     }
 })
 
-export const { updateInput } = translationSlice.actions;
+export const { updateInput, clearInput } = translationSlice.actions;
 
 export default translationSlice.reducer;

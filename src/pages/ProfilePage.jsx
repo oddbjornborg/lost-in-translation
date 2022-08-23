@@ -2,19 +2,28 @@ import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux"
 import { logout, clearTranslationHistory } from "../state/userSlice"
+import { clearInput } from "../state/translationSlice"
 import "../style/PageContainer.css"
 import "../style/Profile.css"
 
 function ProfilePage(props) {
     const navigate = useNavigate();
     const dispatch = useDispatch();
-    const user = useSelector(state => state.user)
+    const user = useSelector(state => state.user);
+    const translation = useSelector(state => state.translation);
 
     useEffect(() => {
         if(user.username === "") {
             navigate("/");
         }
     }, [ user.username, navigate ])
+
+    // Clear translation input (when leaving translation page)
+    useEffect(() => {
+        if(translation.input !== "") {
+            dispatch(clearInput())
+        }
+    }, [ dispatch, translation.input ])
 
     function logoutOnClick() {
         sessionStorage.removeItem("username");
