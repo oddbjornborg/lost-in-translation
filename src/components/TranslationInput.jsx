@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
-import { addTranslationHistory } from "../userSlice";
+import { addTranslationHistory } from "../state/userSlice";
+import { updateInput } from "../state/translationSlice";
 import "../style/Login.css"
 import "../style/Translation.css"
 
@@ -10,8 +11,7 @@ const translationConfig = {
   maxLength: 40,
 };
 
-function TranslationInput(props) {
-  const { setInput } = props;
+function TranslationInput() {
   const dispatch = useDispatch();
   const user = useSelector(state => state.user);
 
@@ -24,7 +24,7 @@ function TranslationInput(props) {
   const onSubmit = (data) => {
     const input = data.translationInput.trim();
     if(input !== "") {
-      setInput(input);
+      dispatch(updateInput(input));
       dispatch(addTranslationHistory(input));
     }
   };

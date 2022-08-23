@@ -1,13 +1,15 @@
+import { useEffect } from "react";
+import { useSelector } from "react-redux";
 import "../style/Translation.css"
 
-function Translation(props) {
-    const { input } = props;
+function Translation() {
+    const translation = useSelector(state => state.translation);
 
     return (
         <div className="sign-container">
             <div className="sign-row">
                 {
-                    input.split("").map((char, index) => {
+                    translation.input.split("").map((char, index) => {
 
                         // If character is a letter
                         if(/[a-z]/i.test(char)) {

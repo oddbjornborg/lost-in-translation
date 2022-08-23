@@ -1,13 +1,12 @@
 import { useNavigate } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Translation from "../components/Translation";
 import TranslationInput from "../components/TranslationInput";
 import { useSelector } from "react-redux";
 import "../style/PageContainer.css"
 import "../style/Translation.css"
 
-function TranslatePage(props) {
-    const [ input, setInput ] = useState("");
+function TranslatePage() {
     const user = useSelector(state => state.user);
     const navigate = useNavigate();
 
@@ -21,10 +20,10 @@ function TranslatePage(props) {
         <div className="page-container quarter">
             <div className="translate-div">
                 <div className="translate-input-div">
-                    <TranslationInput setInput={ setInput }/>
+                    <TranslationInput />
                 </div>
                 <div className="translate-output-div">
-                    <Translation input={ input } />
+                    <Translation />
                 </div>
             </div>
         </div>
