@@ -1,9 +1,10 @@
-h1 {
+.profile-name {
     color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-h3 {
-    color: #969696;
+.translation-text {
+    color: white;
 }
 
 .profile-split-div {
@@ -58,7 +59,7 @@ h3 {
     min-height: 400px;
     width:80%;
     min-width: fit-content;
-    background-image: linear-gradient(white 88%, #845EC2 12%);
+    background-image: linear-gradient(#FFC75F 15%, white 0%, white 88%, #845EC2 0%, #845EC2);
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
     border-radius: 25px;
 }
@@ -69,6 +70,7 @@ h3 {
     flex-direction: row;
     justify-content: start;
     align-items: start;
+    color: #969696;
 }
 
 .history-button {
@@ -79,14 +81,15 @@ h3 {
     margin-top: 3%;
     margin-bottom: 4%;
     color: #969696;
+    cursor: pointer;
 }
 
 .logout-button {
     height: 35px;
     width: 100px;
     border-radius: 10px;
-
     font-size: medium;
     border: 0;
     color: #969696;
+    cursor: pointer;
 }

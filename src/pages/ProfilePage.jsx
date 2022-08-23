@@ -37,7 +37,7 @@ function ProfilePage(props) {
 
                         <img className="login-logo" src="Logo.png" alt="Logo"></img>
                         <div>
-                            <h1 className="login-text">{user.username}</h1>
+                            <h1 className="profile-name">{user.username}</h1>
                             <button className="logout-button" onClick={ logoutOnClick }>LOGOUT</button>
                         </div>
 
@@ -51,7 +51,7 @@ function ProfilePage(props) {
 
                         <div className="history-box">
 
-                            <h3>TRANSLATIONS</h3>
+                            <h3 className="translation-text">TRANSLATIONS</h3>
                             
                             <div className="history-list">
                                 <ul>

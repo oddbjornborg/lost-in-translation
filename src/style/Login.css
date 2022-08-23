@@ -75,6 +75,8 @@
     color: white;
     background-color: #FFC75F;
     border: 0;
+
+    cursor: pointer;
 }
 
 .login-logo {
