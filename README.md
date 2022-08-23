@@ -6,6 +6,8 @@ Lost in Translation is a simple web service for translating words and text into 
 
 The site allows a user to log in with a username and to translate phrases under 40 characters into American Sign Language. The state management of the current user and their translations are handled through Redux, and all users and their respective translations recorded in the current session are stored in session storage. This was done as a replacement for a proper database and API.
 
+NB: This project was originally made and developed in GitLab. Should you want to view the rest of the commit history then it is available [here](https://gitlab.com/oddbjornborg/lost-in-translation). The GitLab repository is now outdated.
+
 ## Background
 
 This project was created as part of the Noroff Accelerate course. It's purpose was to learn and demonstrate a basic level of understanding of React development, as well as other web-development technologies like Redux.
