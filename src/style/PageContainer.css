@@ -1,0 +1,15 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 90%;
+}
+
+.half {
+    background-image: linear-gradient(#FFC75F 50%, white 50%);
+}
+
+.quarter {
+    background-image: linear-gradient(#FFC75F 30%, white 0%, white);
+}

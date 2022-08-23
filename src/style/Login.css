@@ -1,0 +1,88 @@
+@font-face {
+    font-family: loveYaLikeASister;
+    src: url(https://fonts.google.com/specimen/Love+Ya+Like+A+Sister?query=Love+Ya+Like+a+sister);
+}
+
+.login-text {
+    color: white;
+}
+
+.login-text-div {
+    width: 60%;
+}
+
+.login-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+    border-radius: 20px;
+    background-image: linear-gradient(white 80%, #845EC2 20%);
+    height: 10%;
+    min-height: 50px;
+    width: 65%;
+
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+.login-field {
+    border: 0;
+    width: 100%;
+}
+
+.login-heading {
+    font-family: loveYaLikeASister;
+}
+
+.login-input {
+    height: 2.5rem;
+    width: 97%;
+    border: 0;
+    border-radius: 15px;
+    background-color: #EFEFEF;
+    padding-left: 3%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    color: #969696;
+    font-size: large;
+}
+
+::placeholder {
+    color:#969696;
+    opacity: 0.5;
+}
+
+:-ms-input-placeholder {
+    color:#969696;
+    opacity: 0.5;
+}
+
+.login-button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    font-size: large;
+    color: white;
+    background-color: #FFC75F;
+    border: 0;
+}
+
+.login-logo {
+    height: 80%;
+    padding-right: 50px;
+}
