@@ -1,11 +1,5 @@
-@font-face {
-    font-family: loveYaLikeASister;
-    src: url(https://fonts.google.com/specimen/Love+Ya+Like+A+Sister?query=Love+Ya+Like+a+sister);
-}
-
 .login-text {
     color: white;
-    font-family: loveYaLikeASister;
 }
 
 .login-text-div {
