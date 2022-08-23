@@ -22,7 +22,7 @@ function TranslationInput() {
   } = useForm();
 
   const onSubmit = (data) => {
-    const input = data.translationInput.trim();
+    const input = data.translationInput.trim().toLowerCase();
     if(input !== "") {
       dispatch(updateInput(input));
       dispatch(addTranslationHistory(input));
