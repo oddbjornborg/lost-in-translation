@@ -2,6 +2,8 @@
 
 Lost in Translation is a simple web service for translating words and text into American Sign Language. Available on [Heroku](https://glacial-scrubland-70507.herokuapp.com/).
 
+Addendum (25.08.22): Genuinely completely forgot to integrate the Heroku API. Getting to it for the next assignment.
+
 ## Description
 
 The site allows a user to log in with a username and to translate phrases under 40 characters into American Sign Language. The state management of the current user and their translations are handled through Redux, and all users and their respective translations recorded in the current session are stored in session storage. This was done as a replacement for a proper database and API.
